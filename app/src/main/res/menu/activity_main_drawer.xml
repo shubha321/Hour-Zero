@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/Categories"
+            android:title="Categories">
+            <menu>
+            <item
+                android:id="@+id/Top"
+                android:icon="@drawable/ic_fiber_new_black_24dp"
+                android:title="Top News" />
+            <item
+                android:id="@+id/Gaming"
+                android:icon="@drawable/ic_extension_black_24dp"
+                android:title="Gaming" />
+            <item
+                android:id="@+id/Education"
+                android:icon="@drawable/ic_school_black_24dp"
+                android:title="Education" />
+            <item
+                android:id="@+id/Entertainment"
+                android:icon="@drawable/ic_live_tv_black_24dp"
+                android:title="Entertainment" />
+            <item
+                android:id="@+id/Music"
+                android:icon="@drawable/ic_music_note_black_24dp"
+                android:title="Music" />
+            <item
+                android:id="@+id/world"
+                android:icon="@drawable/ic_public_black_24dp"
+                android:title="World" />
+            <item
+                android:id="@+id/Tech"
+                android:icon="@drawable/ic_stay_current_portrait_black_24dp"
+                android:title="Tech" />
+            <item
+                android:id="@+id/Sports"
+                android:icon="@drawable/ic_motorcycle_black_24dp"
+                android:title="Sports" />
+            <item
+                android:id="@+id/Finance"
+                android:icon="@drawable/ic_local_atm_black_24dp"
+                android:title="Finance" />
+            </menu>
+        </item>
+    </group>
+
+</menu>
